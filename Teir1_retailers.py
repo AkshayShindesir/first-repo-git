@@ -24,7 +24,7 @@ GRFE_DF = pd.read_excel(r"C:\\Users\\"+str(user_id)+"\\Desktop\\Retailer_KPI_das
 
 
 # %%
-GRFE_TIER_DF_2 = GRFE_DF[GRFE_DF['TIER'] == 'Tier 4'] 
+GRFE_TIER_DF_2 = GRFE_DF[GRFE_DF['TIER'] == 'Tier 6'] 
 
 
 # %%
