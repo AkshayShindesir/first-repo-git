@@ -20,6 +20,9 @@ user_id = getpass.getuser()
 
 
 # %%
+print('are you ready to go')
+
+# %%
 GRFE_DF = pd.read_excel(r"C:\\Users\\"+str(user_id)+"\\Desktop\\Retailer_KPI_dashboard_phase1\\HARMONIZATION_FOLDER\\GRFE_SIRVAL_Harmonization.xlsx",sheet_name=0)
 
 
